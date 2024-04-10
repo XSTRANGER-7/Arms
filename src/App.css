@@ -1,0 +1,20 @@
+.App{
+  background-color: blue;
+}
+
+.row{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+.activeColor{
+  padding-top:5px;
+  height: 30px;
+  width: 10%;
+  border: 2px solid rgb(216, 54, 54);
+  cursor: pointer;
+}
+.pointer{
+  cursor: pointer;
+}

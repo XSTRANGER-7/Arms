@@ -1,0 +1,40 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    min-height: 100vh; 
+    background-color: rgb(16 0 29);
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(81, 2, 150);
+    padding: 30px;
+    padding-top: 0;
+    width: 25%; 
+    border-radius: 10px;
+}
+.row{
+   display: flex;
+   gap: 1rem;
+   cursor: pointer;
+}
+
+img{
+    width: 180px;
+}
+input{
+    margin-bottom: 15px;
+    height: 28px;
+    border-radius: 2px;
+}
+button{
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+    cursor: pointer;
+}
